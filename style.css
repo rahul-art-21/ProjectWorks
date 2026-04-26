@@ -6,9 +6,16 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 .img1{
     width: 50vw;
+    padding: 0;
+    margin: 0;
+    border: 0;
+    height: 50vh;
+
+
 }
 .clickMe {
     background: linear-gradient(to right ,#00ff87 , rgba(98, 177, 89, 0.925), #60efff); 
@@ -17,11 +24,11 @@
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
-    display: inline-block;
     font-size: 16px;
     font-family: "Russo One", sans-serif;
     align-items: center;
     width: 50vw;
+    
 }
 
 .div1{
@@ -31,5 +38,10 @@
 body{
     margin: 0;
     padding: 0;
-    height: ;
+    height: 10vh;
+}
+
+.clickMe:hover{
+
+    color: black;
 }
