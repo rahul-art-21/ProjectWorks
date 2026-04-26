@@ -1,46 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff:wght@400..700&family=Fascinate&family=Russo+One&display=swap');
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.img1{
+    width: 50vw;
+}
+.clickMe {
+    background: linear-gradient(to right ,#00ff87 , rgba(98, 177, 89, 0.925), #60efff); 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-family: "Russo One", sans-serif;
+    align-items: center;
+    width: 50vw;
+}
+
+.div1{
+    padding: 10% 25% 10%;
+    height: 10vh;
+}
 body{
-    background-color: #f1a900d8;
-    color: #112A46;
-}
-
-.head{
-    color: darkblue;
-
-}
-
-#bglime{
-    background-color: aqua;
-    color: red;
-}
-
-p{
-    color: #ffffff;
-    font-size: 20px;
-}
-
-#para{
-    color: green;
-}
-
-#para > span{
-    color: rgb(0, 0, 0);
-    font-size: 20px;
-}
-
-ol li:nth-child(2){
-    color: blue;
-}
-
-ol li:nth-child(3){
-    color: red;
-}
-
-ul li:nth-child(2) a{
-    background-color: blue;
-    color: white;
-}
-
-ul li:nth-child(1) a{
-    background-color: red;
-    color: white;
+    margin: 0;
+    padding: 0;
+    height: ;
 }
